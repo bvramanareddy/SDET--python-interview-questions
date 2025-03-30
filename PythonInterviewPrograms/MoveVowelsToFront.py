@@ -13,5 +13,6 @@ def isVowel(ch):
     return ch in "AEIOUaeiou"
 
 
-string = "TYPKLAEIOU"
-print(move_vowels_to_front(string))
+
+print(move_vowels_to_front(input("Enter the String ")))
+
